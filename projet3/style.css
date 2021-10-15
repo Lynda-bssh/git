@@ -1,0 +1,1158 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+img{
+
+    display:block;
+    width:100%;
+}
+body{
+   
+  background: white; 
+}
+
+
+
+
+/*----------------------------header-------*/
+
+header{
+    width:100%;
+    height:80px;
+}
+/*
+header{
+    width:100%;
+    height:80px;
+}
+
+#side-bar{
+    position:absolute;
+    width:230px;
+    height:100%;
+    background: #09fbba;
+  left:-300px;
+   transition:.5 ease-out;
+   z-index: 4;
+}
+.toggle-button{
+
+    position:absolute;
+    top:30px;
+    left:310px;
+    cursor:pointer;
+    height:50px;
+    width:50px;
+}
+.toggle-button span {
+    width:60px;
+    height:10px;
+    border-radius: 5px;
+    background: #09fbba;
+    display:block;
+    margin-top:4px;
+    transition:0.5s ease;
+
+}
+
+.liste{
+    color:#292929;
+    list-style-type: none;
+    font-size: 1rem;
+    cursor:pointer;
+    padding-left:5px
+}
+
+.liste:hover{
+    background: #292929;
+    color:#fcfcfc;
+}
+
+
+#side-bar.active{
+    left:0;
+
+}
+
+#side-bar.active .toggle-button{
+    top:2.8rem;
+    left:235px;
+}
+#side-bar.active span{
+    position:absolute;
+
+}
+
+#side-bar.active span:nth-child(1){
+    transform: rotate(45deg);
+
+}
+
+#side-bar.active span:nth-child(2){
+    opacity: 0;
+    
+}
+#side-bar.active span:nth-child(3){
+    transform: rotate(-45deg);
+}
+
+*/
+
+
+
+
+
+
+
+
+nav{
+    width:100%;
+    height:80px;
+}
+nav ul {
+    padding:0px;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li{
+    display:inline-block;
+    padding:20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:orange;
+    font-size: 1em;
+    font-weight: 500px;
+    font-family:'Noto Sans' ;
+
+}
+
+.gallerie{
+    max-width:100%;
+    padding-top: 60px;
+    background-size: cover;
+   min-height:1200px;
+    background: url('images/Rectangle\ 137.png')no-repeat 50% 50% fixed ;
+    background-size: 100% 100%;
+
+}
+h1{
+    position:relative;
+    margin-left: 800px;
+    margin-top: 40px;
+    line-height: 150%;
+    font-family: 'poppins';
+    font-weight: 800;
+    font-size: clamp(35px, 10vw, 64px);
+     color:#f1f2f6;
+    
+     z-index:1;
+     overflow: hidden;
+     text-align: center;
+}
+
+
+
+
+.sect{
+   width:100%;
+ min-height:1200px ; 
+}
+
+/*------------------partie printemps arabe-------------------*/
+#printemps-arabe{
+    background: #f7f7f7;
+    padding:20px 0px 100px 0;
+   min-height:850px;
+  max-width:100%;
+   
+
+}
+
+.prints{
+    text-align: center;
+}
+
+.printemps{
+
+   /* font-size: 2.5em;*/
+   font-size: clamp(20px,10vw,40px);
+    text-transform: uppercase;
+    font-weight: 500;
+    display:inline-block;
+    background-image: linear-gradient(to right, #373737, #c0b283);
+    -webkit-background-clip: text;
+    color:transparent;
+    letter-spacing: 0.2rem;
+    transition:all .2s;
+   padding: 40px ;
+   text-align: center;
+   font-family: 'poppins';
+   
+  
+}
+
+.printemps:hover{
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.4);
+
+}
+
+
+.textintro{
+    padding:10px 20%;
+    font-size: 1.2em;
+    font-weight: 500px;
+    line-height: 2rem;
+    font-family: 'Noto Sans';
+
+}
+.prestations{
+    display: flex;
+    align-items: center;
+     margin: auto;
+    justify-content: space-between;
+    padding: 10px 15%;
+}
+.image1{
+    width:80%;
+   
+}
+.imagesprestation h4{
+    font-family: 'Noto Sans';
+    font-size:1em;
+    margin:12px;
+    padding:10px;
+}
+
+.imagesprestation img{
+    border-radius: 10px;
+    box-shadow:3px 4px 5px 4px rgba(0,0,0,.6)
+}
+.imagesprestation img:hover{
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.6s ease-in-out;
+}
+/*----------Femmes à l'aire du numerique------*/
+
+#s2{
+   background: url('images/Rectangle\ 180.png') no-repeat;
+   background-size: 100% 100%;
+  max-width:100%;
+  min-height:850px; 
+  
+}
+
+.autre{
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.femmesnum{
+    text-align:center;
+}
+
+.femmenumerique{
+
+   /* font-size: 2.5em;*/
+   font-size: clamp(20px,10vw,40px);
+    text-transform: uppercase;
+    font-weight: 500;
+    display:inline-block;
+    background-image: linear-gradient(to right, #373737, #c0b283);
+    -webkit-background-clip: text;
+    color:transparent;
+    letter-spacing: 0.2rem;
+    transition:all .2s;
+    padding:40px;
+    text-align: center;
+    font-family: 'poppins';
+
+}
+
+.femmenumerique:hover{
+
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.4);
+
+}
+
+.femmearabe{
+   
+    position:relative;
+   max-width:980px;
+  min-height:500px;
+    padding:25px;
+    background:#fff;
+    box-sizing: border-box;
+     border-radius:10px;
+     box-shadow: 0 15px 50px rgba(0,0,0,.2);
+     line-height: 1.5em;
+     font-family: 'Noto Sans';
+    font-size: 1.2em;
+    font-weight: 500px;
+
+     
+}
+
+
+.cercle{
+    width:350px;
+    height:350px;
+    background: url('images/image8.jfif') ;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    float:left;
+    shape-outside: circle();
+    margin:30px;
+    
+}
+
+/*-------------------les femmes qui osent le cha-----*/
+
+#apropos{
+    background: #f7f7f7;
+    width:100%;
+  min-height:1000px ;
+    margin:0px;
+    padding:0px;
+  
+   
+  
+}
+.textcenter{
+    text-align: center;
+
+}
+
+.heading{
+    font-size: clamp(20px,10vw,40px);
+   /* font-size: 2.5em;*/
+    text-transform: uppercase;
+    font-weight: 500;
+    display:inline-block;
+    background-image: linear-gradient(to right, #373737, #c0b283);
+    -webkit-background-clip: text;
+    color:transparent;
+    letter-spacing: 0.2rem;
+    transition:all .2s;
+    padding:40px;
+    font-family: 'poppins';
+}
+
+.heading:hover{
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.4);
+}
+
+.row{
+    display:flex;
+    width:80rem;
+   min-height:35rem;
+    
+}
+.row .doublecol{
+  width:100%;
+  margin:2rem  0 0  10rem;
+  height:300px;
+
+}
+
+
+.headingtext{
+    font-size: 1.5rem;
+    font-weight: 500;
+   font-family:'poppins' ;
+   color:orange;
+  
+}
+
+
+
+.marbotsm{
+    margin-bottom: 1.5rem;
+}
+
+.paragraph{
+    font-size:1.3rem;
+    line-height: 1.5em;
+    margin-bottom:3rem;
+    font-weight: 500;
+    font-family:'Noto Sans' ;
+
+}
+
+
+.btn-text:hover{
+    background: #373737;
+    color:#c0b283;
+    box-shadow: 0 1rem rgb(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+.btn-text:active{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transform: translateY(0);
+}
+
+
+.composition{
+    position: relative;
+    margin:0px;
+    
+}
+
+.composition_photo{
+   width:50%;
+   min-width:300px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+    position: absolute;
+    z-index: 10;
+    transition:all 0.2s;
+    outline-offset: 2rem;
+   
+   
+}
+.composition_photo--p1{
+    left: 5%;
+    top:-2rem;
+
+}
+.composition_photo--p2{
+    right: -20%;
+    top:2rem;
+
+}
+.composition_photo--p3{
+    left: 20%;
+    top:10rem;
+
+}
+
+.composition_photo:hover{
+    outline: 1.5rem solid #c0b283;
+    transform: scale(1.05) translateY(-0.5rem);
+    box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+    z-index: 20;
+   
+
+}
+.composition :hover .composition_photo:not(:hover){
+
+    transform:scale(0.15);
+}
+
+/*----------------------------Autres Figures-------*/
+
+
+
+#autres-figures{
+    min-height:1100px;
+    background: #f1f2f6;
+    padding:0px 4%;
+    width:100%;
+   
+    
+   
+}
+.figures{
+    text-align: center;
+}
+
+
+#autres-figures h2:hover{
+
+transform: skewY(2deg) skewX(15deg) scale(1.1);
+text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.4);
+}
+#autres-figures h2{
+padding-top: 60px;
+margin: auto;
+text-align:center;
+font-size: clamp(20px,10vw,40px);
+/*
+font-size: 2.5em;*/
+text-transform: uppercase;
+font-weight: 500;
+display:inline-block;
+background-image: linear-gradient(to right, #373737, #c0b283);
+-webkit-background-clip: text;
+color:transparent;
+letter-spacing: 0.2rem;
+transition:all .2s;
+font-family: 'poppins';
+
+}
+
+.Alla-Salah{
+    background: url('images/allaa\ .png') no-repeat  ;
+   
+   
+}
+.figures ul li{
+    text-decoration: none;
+}
+
+.Zoubida-Assoul{
+    background: url('images/zoubida\ assoul.png') no-repeat;
+    width:250px;
+}
+
+.Maria-Moukrim{
+    background: url('images/maria\ moukim.png') no-repeat;
+}
+
+#autres-figures li{
+list-style-type: none;
+margin:15px 150px 0 200px;
+height:260px;
+width:55%;
+min-width: 550px;
+float:left;
+}
+#autres-figures p{
+  
+    height:70px;
+    min-width:235px;
+    background: #fff;
+    float: right;
+    margin:50px 220px 0 0;
+    font-size: 1em;
+    font-family: 'Noto Sans';
+    font-weight: 500;
+    text-align: center;
+    padding:5px 5px 10px 5px;
+    box-shadow: 4px 4px 0 1px rgb(112, 80, 83);
+    color:orange;
+
+}
+   #autres-figures .Zoubida-Assoul{
+    float:right;
+    margin-right: -50px;
+}
+.Zoubida-Assoul p{
+    margin-left: 360px;
+    float: left;
+}
+
+/*---------------------Footer------------------*/
+
+#footer{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    background: #f5f5f5;
+    font-family: 'Noto Sans';
+    font-weight:100 ;
+}
+.nous-contacter{
+   margin-top:30px;
+   background: #fff;
+   border-radius: 10px;
+   min-width: 300px;
+   color:#eb7371;
+}
+.inputs{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    margin-top: 20px;
+
+}
+form .inputs input[type="Email"],input[type="text"],input[type="message"]{
+
+    padding:15px;
+    border-radius:5px;
+    background: #f2f2f2;
+    margin-bottom: 15px;
+}
+
+.center{
+    text-align: center;
+    margin-bottom: 15px;
+}
+form button{
+    padding:15px 25px;
+    border-radius: 5px;
+    font-size: 15px;
+    color:#eb7371;
+}
+
+#footer h2{
+    font-size: clamp(20px,10vw,40px);
+padding-top: 60px;
+margin: auto;
+text-align:center;
+/*-size: 2.5em;*/
+text-transform: uppercase;
+font-weight: 500;
+display:inline-block;
+background-image: linear-gradient(to right, #373737, #c0b283);
+-webkit-background-clip: text;
+color:transparent;
+letter-spacing: 0.2rem;
+transition:all .2s;
+font-family: 'poppins';
+}
+
+#footer h2:hover{
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.4);
+
+}
+.social-media{
+    display:flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-top: 50px;
+}
+.social-media .imge{
+
+    padding:10px;
+    margin-left: 20px;
+    
+   
+}
+form h4{
+    font-size:8px;
+    color:#000;
+    padding:5px;
+
+}
+.copyright{
+    margin-bottom: 20px;
+}
+.liste{
+    display:none;
+}
+/*-----------------------Le résponsive------------------------*/
+
+
+
+@media (max-width:1260px)
+{
+
+
+    .doublecol{
+margin:auto;
+text-align: center;
+
+
+    }
+h1{
+   margin:auto;
+}
+#autres-figures p{
+ height:auto;
+    min-width:200px;
+    float: left;
+    margin:30px 200px 0px -100px;
+    font-size: 0.8em;
+    padding:5px 5px 10px 5px;
+}
+
+.paragraph{
+    font-size:1rem;
+    line-height: 1.3em;
+    margin-bottom:0;
+    font-weight: 400;
+}
+
+.composition_photo{
+    width:40%;
+    min-width:200px;
+    margin:auto;
+    
+ }
+
+ .composition_photo--p1{
+    left: -10%;
+    top:1rem;
+
+}
+.composition_photo--p2{
+    right:30% ;
+    top:0rem;
+
+}
+.composition_photo--p3{
+    right: 10%;
+    top:4rem;
+
+}
+.row{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width:40rem;
+   min-height:35rem;
+  margin-top:0px;
+  margin-bottom:0px;
+  margin:auto;
+}
+
+.marbotsm{
+    margin-bottom:0rem;
+}
+.row .doublecol{
+    width:100%;
+    height:300px;
+    margin:0;
+  }
+  .paragraph .composition{
+      margin:0;
+  }
+  .compostion{
+      margin:auto;
+  }
+
+}
+
+@media (max-width:1000px){
+
+   
+    .row {
+        margin:auto;
+        min-height:30rem;
+        width:40rem;
+       
+
+    }
+
+   
+    .cercle{
+        width:250px;
+        height:250px; 
+      
+    }
+
+    .gallerie{
+        background: url('images/Rectangle\ 137.png')no-repeat fixed ;
+        background-size: 100% 100%;
+    
+    }
+    
+     .femmearabe{
+   
+      
+       max-width:700px;
+    
+    }
+
+    .textintro{
+        font-size:1.1em;
+        padding:20px;
+    }
+
+   
+
+}
+
+
+@media (max-width:700px){
+
+     .femmearabe{
+        max-width:500px;
+        font-size: 15px;
+     }
+
+     .paragraph{
+    font-size: 18px;
+    max-width:400px;
+    text-align: center;
+    margin-left: 20px;
+    margin:auto;
+    }
+
+    .image1{
+        width:80%;
+       
+    }
+    .textintro{
+        font-size:0.8em;
+        padding:20px;
+    }
+
+
+    .headingtext{
+        font-size: 1em;
+       
+      
+      
+    }
+    .row {
+        margin:auto;
+        min-height: 30rem;
+        width:30rem;
+       
+
+    }
+
+    .Alla-Salah{
+        background: url('images/Rectangle\ 166.png') no-repeat;
+      
+    }
+    
+    
+    .Zoubida-Assoul{
+        background: url('images/Rectangle\ 167.png') no-repeat ;
+    }
+    .Maria-Moukrim{
+        background: url('images/Rectangle\ 165.png') no-repeat ;
+    }
+
+}
+
+@media (max-width:500px){
+
+
+    .afficher{
+        display:none;
+    }
+    
+    
+    #side-bar{
+        position:absolute;
+        width:230px;
+        height:50%;
+        background: #f7f7f7;
+      left:-300px;
+       transition:.5 ease-out;
+       z-index: 4;
+    }
+    .toggle-button{
+    
+        position:absolute;
+        top:30px;
+        left:310px;
+        cursor:pointer;
+        height:50px;
+        width:50px;
+    }
+    .toggle-button span {
+        width:60px;
+        height:10px;
+        border-radius: 5px;
+        background: black;
+        display:block;
+        margin-top:4px;
+        transition:0.5s ease;
+    
+    }
+    
+    .liste{
+        text-decoration: none;
+        color:orange;
+        font-size: 12px;
+        font-weight: 400px;
+        font-family:'Noto Sans' ;
+      
+        list-style-type: none;
+        line-height: 40px;
+       
+        cursor:pointer;
+        padding-left:5px;
+        display:block;
+    }
+    .liste a{
+        text-decoration: none;
+    }
+    
+    .liste:hover{
+        background: orange;
+        color:#fcfcfc;
+    }
+    
+    
+    #side-bar.active{
+        left:0;
+    
+    }
+    
+    #side-bar.active .toggle-button{
+        top:2.8rem;
+        left:235px;
+    }
+    #side-bar.active span{
+        position:absolute;
+    
+    }
+    
+    #side-bar.active span:nth-child(1){
+        transform: rotate(45deg);
+    
+    }
+    
+    #side-bar.active span:nth-child(2){
+        opacity: 0;
+        
+    }
+    #side-bar.active span:nth-child(3){
+        transform: rotate(-45deg);
+    }
+    
+    
+
+
+
+
+
+
+
+    .gallerie{
+        background: url('images/Rectangle\ 137.png')no-repeat fixed ;
+            background-size: 100% 100%;
+        
+        }
+h1{
+    margin-top:100px ;
+  
+}
+
+
+#s2{
+    background: url('images/Rectangle\ 180.png') no-repeat;
+  background-size: 100% 100%;
+ }
+    .textintro{
+        padding:20px;
+        text-align: justify;
+        font-size: 18px;
+        
+    }
+
+    .prestations{
+        padding:20px;
+    }
+
+
+    .femmearabe{
+        min-height: 200px;
+        font-size:11px;
+        margin: 20px;
+       
+      
+
+    }
+    
+   .cercle{
+        width:150px;
+         height:150px;
+        background: url('images/image8.jfif') ;
+        background-size:100%;
+        border-radius: 50%;
+        float:left;
+        shape-outside: circle();
+        margin: 30px;
+      
+      
+   }
+
+   .paragraph{
+     
+        font-size: 16px;
+        max-width:300px;
+        text-align:justify;
+      margin:auto;
+      padding:0 20px 0 20px;
+       
+     
+
+   }
+
+
+    
+    .row {
+        margin:auto;
+        min-height:25;
+        width:30rem;
+       
+
+    }
+
+    .composition_photo--p1{
+        left: 12%;
+        top:4rem;
+    
+    }
+    .composition_photo--p2{
+        right:40% ;
+        top:10rem;
+    
+    }
+    .composition_photo--p3{
+        right: 0%;
+        top:4rem;
+
+}
+
+.composition_photo{
+    width:20%;
+   
+    
+  
+    min-width:150px;
+  
+   
+}
+
+#autres-figures{
+    min-height:1100px;
+    background: #f1f2f6;
+    padding:0px 4%;
+    width:100%;
+    
+   
+}
+
+   
+
+.Alla-Salah{
+    background: url('images/allaa\ mobile.png') no-repeat;
+  
+}
+
+.Zoubida-Assoul{
+    background: url('images/zoubida\ mobile.png') no-repeat ;
+}
+.Maria-Moukrim{
+    background: url('images/maria\ mobile.png') no-repeat ;
+}
+
+
+
+#autres-figures li{
+
+    margin:0px -30px 0 20px;
+    height:230px;
+    width:55%;
+    min-width: 550px;
+    float:left;
+    }
+    #autres-figures p{
+        height:50px;
+        min-width:200px;
+        background: #fff;
+        float: left;
+        margin:120px 220px 0 0;
+    
+        font-size: 0.8em;
+        font-family: 'Noto Sans';
+        font-weight: 500;
+        text-align: center;
+        padding:5px 5px 10px 5px;
+        box-shadow: 4px 4px 0 1px rgb(112, 80, 83);
+        color:orange;
+    
+    }
+       #autres-figures .Zoubida-Assoul{
+        float:right;
+        margin-right: -350px;
+    }
+    .Zoubida-Assoul p{
+        margin-left: 360px;
+        float: left;
+    }
+    
+}
+
+/*
+@media  (max-width:600px){
+
+
+    .imagesprestation h4{
+        font-size: 0.5em;
+    }
+/*
+.row .doublecol{
+        margin:auto;
+        text-align: center;
+        
+        
+}
+*/
+/*
+.row{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.paragraph{
+font-size: 14px;
+max-width:400px;
+text-align: center;
+margin:0% 20%;
+
+}
+
+
+
+
+.headingtext{
+    margin:auto;
+   
+  
+  
+}
+
+.femmearabe{
+  
+     
+    max-width:300px;
+    font-size: 11px;
+    min-height: 250px;
+     
+      
+ }
+
+ .cercle{
+     width:100px;
+     height:100px; 
+   
+ }
+ .composition_photo{
+     width:20%;
+    
+     
+   
+     min-width:150px;
+   
+    
+ }
+
+
+ 
+
+ .composition_photo--p1{
+    left: ;
+    top:;
+
+}
+.composition_photo--p2{
+    right: ;
+    top:;
+
+}
+.composition_photo--p3{
+    left: ;
+    top:;
+
+}
+
+}
+
+*/
+
+
+
+
