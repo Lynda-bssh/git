@@ -1,1 +1,6 @@
-# site internet (javascript , html, css
+# Réalisation d'un site internet:
+
+## outils:
+- html
+- css
+- javascripts
